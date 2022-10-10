@@ -19,8 +19,24 @@ const Expenses = ({ props }) => {
 
   return (
     <Card className="expenses">
-      <h2 style={{ color: 'grey', textAlign: 'center' }}>
-        Selected Year: {filteredYear}
+      <h3
+        style={{
+          color: 'grey',
+          textAlign: 'center',
+          margin: '0',
+        }}
+      >
+        Selected Year:
+      </h3>
+      <h2
+        style={{
+          color: 'grey',
+          textAlign: 'center',
+          paddingBottom: '.5rem',
+          margin: '0.1rem',
+        }}
+      >
+        {filteredYear}
       </h2>
       <ExpensesFilter
         selected={filteredYear}
@@ -43,7 +59,13 @@ const Expenses = ({ props }) => {
           )
         ) : (
           <p
-            style={{ color: 'grey', fontWeight: 'bold', margin: 'auto 0.5rem' }}
+            style={{
+              color: 'white',
+              fontSize: '1.5rem',
+              paddingTop: '1rem',
+              display: 'flex',
+              justifyContent: 'center',
+            }}
           >
             No expenses found.
           </p>
