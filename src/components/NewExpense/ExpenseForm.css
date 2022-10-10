@@ -25,3 +25,18 @@
 .new-expense__actions {
   text-align: right;
 }
+
+.new-expense__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.new-expense__nodialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: .5rem;
+}
