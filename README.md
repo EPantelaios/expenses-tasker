@@ -1,5 +1,6 @@
 ### With this project, the most features of the ReactJS framework are highlighted and all the basic and advanced concepts are applied in practice.
 
+
 ## Available Scripts
 
 In the project directory, you can run:
