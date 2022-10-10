@@ -27,24 +27,28 @@ const Expenses = ({ props }) => {
         onChangeFilter={filterChangeHandler}
       />
       {/* <FilterByYear props={props} /> */}
-      {filteredExpenses.length > 0 ? (
-        filteredExpenses.map(
-          (item) =>
-            item.title !== '' &&
-            item.amount !== '' && (
-              <ExpenseItem
-                key={item.id}
-                title={item.title}
-                amount={item.amount}
-                date={item.date}
-              />
-            )
-        )
-      ) : (
-        <p style={{ color: 'grey', fontWeight: 'bold', margin: 'auto 0.5rem' }}>
-          No expenses found.
-        </p>
-      )}
+      <ul className="expenses-list">
+        {filteredExpenses.length > 0 ? (
+          filteredExpenses.map(
+            (item) =>
+              item.title !== '' &&
+              item.amount !== '' && (
+                <ExpenseItem
+                  key={item.id}
+                  title={item.title}
+                  amount={item.amount}
+                  date={item.date}
+                />
+              )
+          )
+        ) : (
+          <p
+            style={{ color: 'grey', fontWeight: 'bold', margin: 'auto 0.5rem' }}
+          >
+            No expenses found.
+          </p>
+        )}
+      </ul>
     </Card>
   );
 };
