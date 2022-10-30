@@ -1,13 +1,16 @@
-import React from 'react';
-
 import './ChartBar.css';
 
-const ChartBar = (props) => {
+type Props = {
+  value: number;
+  label: string;
+  totalSum: number;
+};
+
+const ChartBar = (props: Props) => {
   let barFillHeight = '0%';
 
   if (props.totalSum > 0) {
-    barFillHeight =
-      Math.round(parseFloat(props.value / props.totalSum) * 100) + '%';
+    barFillHeight = Math.round((props.value / props.totalSum) * 100) + '%';
   }
 
   return (

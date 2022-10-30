@@ -1,5 +1,6 @@
-import ChartBar from './ChartBar';
 import _ from 'lodash';
+
+import ChartBar from './ChartBar';
 import './Chart.css';
 
 const Chart = (props) => {

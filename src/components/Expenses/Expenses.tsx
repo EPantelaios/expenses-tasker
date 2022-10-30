@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-import ExpenseItem from './ExpenseItem';
 import Card from '../UI/Card';
-import ExpensesFilter from './ExpensesFilter';
+import ExpenseItem from './ExpenseItem';
 import ExpensesChart from './ExpensesChart';
+import ExpensesFilter from './ExpensesFilter';
 import './Expenses.css';
 
 const Expenses = ({ props }) => {
@@ -18,7 +18,9 @@ const Expenses = ({ props }) => {
   );
 
   const sortExpensesByDate = filteredExpensesByYear.sort(
-    (a, b) => new Date(a.date) - new Date(b.date)
+    (a: Record<string, string>, b: Record<string, string>) => {
+      return +new Date(a.date) - +new Date(b.date);
+    }
   );
 
   return (
