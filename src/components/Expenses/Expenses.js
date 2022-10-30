@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import ExpenseItem from './ExpenseItem';
 import Card from '../UI/Card';
 import ExpensesFilter from './ExpensesFilter';
-import FilterByYear from './FilterByYear';
+import ExpensesChart from './ExpensesChart';
 import './Expenses.css';
 
 const Expenses = ({ props }) => {
@@ -13,8 +13,12 @@ const Expenses = ({ props }) => {
     setFilteredYear(selectedYear);
   };
 
-  const filteredExpenses = props.filter(
+  const filteredExpensesByYear = props.filter(
     (item) => item.date.getFullYear().toString() === filteredYear
+  );
+
+  const sortExpensesByDate = filteredExpensesByYear.sort(
+    (a, b) => new Date(a.date) - new Date(b.date)
   );
 
   return (
@@ -42,10 +46,10 @@ const Expenses = ({ props }) => {
         selected={filteredYear}
         onChangeFilter={filterChangeHandler}
       />
-      {/* <FilterByYear props={props} /> */}
+      <ExpensesChart expenses={sortExpensesByDate} />
       <ul className="expenses-list">
-        {filteredExpenses.length > 0 ? (
-          filteredExpenses.map(
+        {sortExpensesByDate.length ? (
+          sortExpensesByDate.map(
             (item) =>
               item.title !== '' &&
               item.amount !== '' && (
