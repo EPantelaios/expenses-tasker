@@ -1,0 +1,302 @@
+[
+  {
+    "id": "dc766273-2712-471f-8795-0dc54a6c05f5",
+    "title": "Bread - Roll, Calabrese",
+    "amount": 50.02,
+    "date": "2022-03-18"
+  },
+  {
+    "id": "da23e587-3184-4e34-9a42-7a412a880673",
+    "title": "Peas - Frozen",
+    "amount": 56.71,
+    "date": "2020-03-01"
+  },
+  {
+    "id": "e782ba7a-8c21-47f6-8923-43f632b92322",
+    "title": "V8 Splash Strawberry Kiwi",
+    "amount": 79.84,
+    "date": "2022-10-19"
+  },
+  {
+    "id": "958f6cc6-5204-41e6-89f8-b844d815d590",
+    "title": "Chocolate - Pistoles, Lactee, Milk",
+    "amount": 38.63,
+    "date": "2021-08-29"
+  },
+  {
+    "id": "058632ba-b135-431a-9fdb-13dec2382624",
+    "title": "Silicone Paper 16.5x24",
+    "amount": 45.73,
+    "date": "2019-08-06"
+  },
+  {
+    "id": "e4295d26-5f63-429e-9047-dc7bb41e1b2b",
+    "title": "Gelatine Powder",
+    "amount": 74.04,
+    "date": "2022-05-24"
+  },
+  {
+    "id": "41ad9483-ec8a-409b-bf51-26221a65bf75",
+    "title": "Bread - Dark Rye",
+    "amount": 56.94,
+    "date": "2019-08-17"
+  },
+  {
+    "id": "f2a6e1fc-4a97-4818-b6b2-f6aa1ba7f17c",
+    "title": "Bread - Sticks, Thin, Plain",
+    "amount": 41.69,
+    "date": "2021-02-13"
+  },
+  {
+    "id": "8d55143d-02d9-49f7-b650-c41b819660b0",
+    "title": "Soup - Canadian Pea, Dry Mix",
+    "amount": 74.1,
+    "date": "2022-05-25"
+  },
+  {
+    "id": "8dcd5009-1936-43a4-8d86-8e265f002be6",
+    "title": "Lentils - Red, Dry",
+    "amount": 59.49,
+    "date": "2019-02-13"
+  },
+  {
+    "id": "8b6da31e-6f6f-4c7f-bf29-ed97c3fbbd73",
+    "title": "Salt And Pepper Mix - White",
+    "amount": 20.78,
+    "date": "2020-02-02"
+  },
+  {
+    "id": "20645d13-2407-4bdf-ad5f-2af1424171e6",
+    "title": "Sauce - Alfredo",
+    "amount": 34.33,
+    "date": "2021-01-12"
+  },
+  {
+    "id": "cb6059c8-07ad-45fe-933c-9b2c5eeffae2",
+    "title": "Sauce - Soya, Dark",
+    "amount": 65.08,
+    "date": "2020-05-31"
+  },
+  {
+    "id": "6c1af7ae-06a3-467f-9e50-716475dc2c0e",
+    "title": "Jagermeister",
+    "amount": 36.52,
+    "date": "2021-02-27"
+  },
+  {
+    "id": "3e1ca3d5-54cd-4d18-8f44-30c94161653c",
+    "title": "Pasta - Lasagna, Dry",
+    "amount": 58.42,
+    "date": "2019-07-05"
+  },
+  {
+    "id": "7128766d-0eac-4ba0-8355-ab4fe8be3343",
+    "title": "Tequila - Sauza Silver",
+    "amount": 30.5,
+    "date": "2021-07-27"
+  },
+  {
+    "id": "c322160e-bc44-4566-bb31-fa78939f4ac6",
+    "title": "Beans - Turtle, Black, Dry",
+    "amount": 27.84,
+    "date": "2021-08-30"
+  },
+  {
+    "id": "ecb18a92-508a-4f4b-956f-3ea8692348cd",
+    "title": "Cilantro / Coriander - Fresh",
+    "amount": 56.04,
+    "date": "2019-05-05"
+  },
+  {
+    "id": "9585344d-c8c5-499c-9738-8c08b92f647c",
+    "title": "Lettuce - Escarole",
+    "amount": 23.48,
+    "date": "2020-04-16"
+  },
+  {
+    "id": "82f0ed11-c6c9-479f-b248-ab6963dd2af2",
+    "title": "Split Peas - Yellow, Dry",
+    "amount": 4.74,
+    "date": "2022-05-06"
+  },
+  {
+    "id": "42bebfba-d59e-4b69-b324-c72377ff6311",
+    "title": "Sauce - Oyster",
+    "amount": 60.24,
+    "date": "2019-09-10"
+  },
+  {
+    "id": "9aeeb4b9-b367-40b9-a7e0-b14a8f521736",
+    "title": "Extract - Raspberry",
+    "amount": 33.74,
+    "date": "2022-12-14"
+  },
+  {
+    "id": "ac7ac4c3-e4dd-49d6-bd75-8ef524f1cef0",
+    "title": "Roe - Flying Fish",
+    "amount": 55.84,
+    "date": "2019-06-01"
+  },
+  {
+    "id": "624521c7-192c-4f5e-8546-b2365ae9fd5f",
+    "title": "Apple - Royal Gala",
+    "amount": 39.94,
+    "date": "2022-05-16"
+  },
+  {
+    "id": "27e3ff67-e47b-4482-9478-6d9506f6ba88",
+    "title": "Cabbage - Green",
+    "amount": 11.85,
+    "date": "2020-05-18"
+  },
+  {
+    "id": "dc9f77c3-ee50-47c4-924c-6d2ce61144b5",
+    "title": "Cornstarch",
+    "amount": 14.87,
+    "date": "2021-01-26"
+  },
+  {
+    "id": "ae38891b-24a9-4fd8-9e08-5753e3c28635",
+    "title": "Squid - Breaded",
+    "amount": 53.9,
+    "date": "2020-08-06"
+  },
+  {
+    "id": "8b52322e-6946-46ba-b264-600caaa86276",
+    "title": "Cotton Wet Mop 16 Oz",
+    "amount": 37.88,
+    "date": "2021-09-23"
+  },
+  {
+    "id": "92fdb57e-c4c5-477d-8db9-2622aa101d1d",
+    "title": "Lettuce - California Mix",
+    "amount": 42.17,
+    "date": "2019-11-11"
+  },
+  {
+    "id": "dff1a654-a956-43fe-a0e7-6604304e7a75",
+    "title": "Vinegar - Tarragon",
+    "amount": 31.23,
+    "date": "2021-11-18"
+  },
+  {
+    "id": "babfa27f-d5c9-4a35-aa40-453dcb501049",
+    "title": "Muffin - Zero Transfat",
+    "amount": 14.41,
+    "date": "2019-06-27"
+  },
+  {
+    "id": "da74f529-88b7-4077-85ff-99ba52ef96be",
+    "title": "Muffin - Banana Nut Individual",
+    "amount": 70.59,
+    "date": "2020-12-05"
+  },
+  {
+    "id": "51ff4e19-e206-4a21-9706-2eda2f461dd8",
+    "title": "Wine - Cave Springs Dry Riesling",
+    "amount": 33.81,
+    "date": "2020-11-15"
+  },
+  {
+    "id": "bdb43ce0-c1d5-49f0-a512-7cd5418d817d",
+    "title": "Cake Circle, Foil, Scallop",
+    "amount": 5.46,
+    "date": "2019-10-29"
+  },
+  {
+    "id": "99af749a-528d-4471-94e5-2879afba5c64",
+    "title": "Pear - Asian",
+    "amount": 60.78,
+    "date": "2020-05-29"
+  },
+  {
+    "id": "0d5352aa-c793-4c6a-99da-cb426f0699b1",
+    "title": "Chocolate Bar - Reese Pieces",
+    "amount": 13.88,
+    "date": "2019-11-30"
+  },
+  {
+    "id": "261d7df5-acd8-4584-90e2-3e37f74b0aaa",
+    "title": "Beans - Yellow",
+    "amount": 27.44,
+    "date": "2022-09-05"
+  },
+  {
+    "id": "5329c3ec-aa5b-4507-a247-4227f947d783",
+    "title": "Dooleys Toffee",
+    "amount": 78.4,
+    "date": "2021-02-18"
+  },
+  {
+    "id": "db0a4b85-9109-4e9e-9538-583f6ec1befe",
+    "title": "Beans - Yellow",
+    "amount": 9.55,
+    "date": "2019-10-25"
+  },
+  {
+    "id": "09968936-0fef-46cf-91e9-0b935df10871",
+    "title": "Red Snapper - Fresh, Whole",
+    "amount": 47.51,
+    "date": "2022-12-13"
+  },
+  {
+    "id": "13e03305-8876-4f16-b608-80e07f158efc",
+    "title": "Jerusalem Artichoke",
+    "amount": 53.61,
+    "date": "2021-02-09"
+  },
+  {
+    "id": "57e961cc-4757-4cf1-ac63-e9f2a827134d",
+    "title": "Scallop - St. Jaques",
+    "amount": 34.23,
+    "date": "2022-08-01"
+  },
+  {
+    "id": "0cd4a7c5-0b23-445d-b13f-bb2fd62d7d50",
+    "title": "Wine - Two Oceans Sauvignon",
+    "amount": 64.89,
+    "date": "2022-11-10"
+  },
+  {
+    "id": "c0c59fcf-4bfd-4f30-956c-1b4db923b03f",
+    "title": "Bread - English Muffin",
+    "amount": 31.08,
+    "date": "2020-11-24"
+  },
+  {
+    "id": "691df227-0309-435f-b92c-068e90e87a59",
+    "title": "Cookie - Dough Variety",
+    "amount": 37.62,
+    "date": "2022-07-28"
+  },
+  {
+    "id": "9057fe77-2ee2-4a8e-bd04-c0b2f8830067",
+    "title": "Wine - Zinfandel California 2002",
+    "amount": 14.46,
+    "date": "2019-08-01"
+  },
+  {
+    "id": "b57d5a26-5bb2-4bf6-be03-1f84855407e2",
+    "title": "Foam Tray S2",
+    "amount": 29.99,
+    "date": "2019-06-21"
+  },
+  {
+    "id": "81f714e7-f138-4429-95f1-55224b16e489",
+    "title": "Skirt - 24 Foot",
+    "amount": 52.39,
+    "date": "2022-04-11"
+  },
+  {
+    "id": "2d23fac8-cc55-4063-933d-e02fd6c24dde",
+    "title": "Pepper - Chili Powder",
+    "amount": 46.77,
+    "date": "2022-01-29"
+  },
+  {
+    "id": "b7cb2456-b645-4c27-8afa-98554c49d60a",
+    "title": "Flour - Corn, Fine",
+    "amount": 46.86,
+    "date": "2022-07-11"
+  }
+]
